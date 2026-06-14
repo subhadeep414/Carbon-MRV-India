@@ -1,0 +1,33 @@
+# CarbonMRV India — Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Visualization & Dashboard
+streamlit>=1.32.0
+plotly>=5.18.0
+
+# Geospatial (for satellite data)
+geopandas>=0.14.0
+shapely>=2.0.0
+rasterio>=1.3.0
+
+# Notebook
+# jupyter>=1.0.0
+ipykernel>=6.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Google Earth Engine (optional, requires GEE account)
+# earthengine-api>=0.1.390
+# geemap>=0.30.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+tqdm>=4.66.0
+
+# Testing
+pytest>=7.4.0
